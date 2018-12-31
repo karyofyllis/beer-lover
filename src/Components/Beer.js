@@ -23,9 +23,6 @@ export default function Beer(props) {
 
     return (
         <Card color={color.backgroundColor} onClick={() => props.handleClick(props.id)}>
-            <Card.Content >
-                <Card.Header>{props.name}</Card.Header>
-            </Card.Content>
             <div className="image-container p-2">
                 <Image centered size='mini' src={props.imgUrl} />
             </div>
