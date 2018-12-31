@@ -1,32 +1,25 @@
-.App {
-  text-align: center;
+body {
+    background: #f8f8f8 !important;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.p-2 {
+    padding: 1em !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center {
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.image {
+    background-color: transparent !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container {
+    min-height: 150px !important;
 }
+/* On screens that are 992px or less, set the background color to blue */
+/* @media screen and (max-width: 1920px) {
+    .image-20 {
+        min-height: 350px;
+        margin: 0 auto;
+    }
+    .img-container {
+        min-height: 260px;
+    }
+  } */
